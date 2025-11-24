@@ -53,8 +53,8 @@ Sebuah website resmi Dinas Kesehatan yang menyediakan informasi kesehatan terper
 
 ### Prasyarat
 Pastikan Anda telah menginstal:
-- `[Web browser modern]`
-- `[Server lokal jika diperlukan]`
+- `npm versi 11.6.2 atau latest`
+- `React Js 19.2.6`
 
 ### Instalasi dan Menjalankan Lokal
 
