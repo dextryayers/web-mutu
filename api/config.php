@@ -1,6 +1,6 @@
 <?php
-define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
-define('DB_NAME', getenv('DB_NAME') ?: 'haniipp1_mutuweb');
-define('DB_USER', getenv('DB_USER') ?: 'haniipp1_adminmutu');
-define('DB_PASS', getenv('DB_PASS') ?: '@MutuDinkes123');
-define('BASE_URL', getenv('BASE_URL') ?: 'https://dinkes.haniipp.my.id/api');
+define('DB_HOST', getenv('DB_HOST') ?: 'localhost:5173');
+define('DB_NAME', getenv('DB_NAME') ?: 'db_name');
+define('DB_USER', getenv('DB_USER') ?: 'db_user');
+define('DB_PASS', getenv('DB_PASS') ?: 'db_pass');
+define('BASE_URL', getenv('BASE_URL') ?: 'https://domain/api');
