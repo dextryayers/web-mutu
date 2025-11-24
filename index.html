@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website Dashboard Mutu Pelayanan Rumah Sakit Jawa Timur">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script>
+      (() => {
+        try {
+          const pref = localStorage.getItem('mutu-theme');
+          const system = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (pref === 'dark' || (!pref && system)) document.documentElement.classList.add('dark');
+          else document.documentElement.classList.remove('dark');
+        } catch {}
+      })();
+    </script>
+    <link rel="shortcut icon" href="images/jawa.ico" type="image/x-icon">
+    <title>Mutu Pelayanan Rumah Sakit - Jawa Timur</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/69226ed7ee1ee9195ee8f3d6/1jan81vm0';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
+
+</html>
