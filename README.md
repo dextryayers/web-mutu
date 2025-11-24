@@ -1,4 +1,4 @@
-# [Nama Aplikasi/Website] Dinkes Haniipp
+# Web Mutu Pelayanan Dinas Provinsi Jawa Timur
 
 [![Status Website](https://img.shields.io/website?url=https%3A%2F%2Fdinkes.haniipp.my.id&label=Status%20Situs)](https://dinkes.haniipp.my.id)
 [![License](https://img.shields.io/badge/Lisensi-MIT-blue.svg)](LICENSE)
