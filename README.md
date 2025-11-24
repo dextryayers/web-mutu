@@ -60,11 +60,16 @@ Pastikan Anda telah menginstal:
 
 ```bash
 # Clone repositori ini
-git clone https://github.com/[username]/[nama-repositori].git
+https://github.com/dextryayers/web-mutu.git
 
 # Masuk ke direktori proyek
-cd [nama-repositori]
+cd web-mutu
 
-# [Tambahkan langkah instalasi dependensi jika ada]
+# Install Depedensi Dengan npm
+npm install
 
-# [Tambahkan perintah untuk menjalankan server development]
+# Jalankan localhost web sebagai preview
+npm run dev 
+
+# Build Untuk Mengupload Ke server/database
+npm run build
