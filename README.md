@@ -1,79 +1,59 @@
-# Web Mutu Pelayanan Dinas Provinsi Jawa Timur
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-[![Status Website](https://img.shields.io/website?url=https%3A%2F%2Fdinkes.haniipp.my.id&label=Status%20Situs)](https://dinkes.haniipp.my.id)
-[![License](https://img.shields.io/badge/Lisensi-MIT-blue.svg)](LICENSE)
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-Sebuah website resmi Dinas Kesehatan yang menyediakan informasi kesehatan terpercaya, pelayanan publik digital, dan pusat data kesehatan masyarakat yang komprehensif.
+## About Laravel
 
-## ✨ Highlights
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- 🩺 **Informasi Kesehatan Terkini** - Update terbaru seputar layanan kesehatan dan program pemerintah
-- 💻 **Layanan Online** - Kemudahan akses pelayanan kesehatan secara digital
-- 📊 **Data & Statistik** - Dashboard data kesehatan masyarakat yang interaktif
-- 📱 **Responsif** - Dapat diakses optimal dari berbagai perangkat
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## 📋 Daftar Isi
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-- [Fitur](#-fitur)
-- [Teknologi](#-teknologi)
-- [Mulai Cepat](#-mulai-cepat)
-- [Struktur Proyek](#-struktur-proyek)
-- [Kontribusi](#-kontribusi)
-- [Lisensi](#-lisensi)
+## Learning Laravel
 
-## 🚀 Fitur
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
 
-### 🩺 Layanan Publik
-- **Pendaftaran Online** - Layanan pendaftaran fasilitas kesehatan secara online
-- **Informasi Faskes** - Direktori lengkap fasilitas kesehatan terkini
-- **Jadwal Dokter** - Informasi jadwal praktik dokter terupdate
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-### 📊 Informasi Kesehatan
-- **Artikel Kesehatan** - Konten edukasi kesehatan untuk masyarakat
-- **Data Epidemiologi** - Statistik dan trends penyakit
-- **Pengumuman Resmi** - Informasi resmi dari dinas kesehatan
+## Laravel Sponsors
 
-### 🔧 Administrasi
-- **Pengaduan Masyarakat** - Saluran pengaduan dan feedback
-- **Unduhan** - Formulir dan dokumen resmi
-- **Berita Terkini** - Update program dan kegiatan terbaru
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-## 💻 Teknologi
+### Premium Partners
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![ReactJs](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+- **[Vehikl](https://vehikl.com)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Redberry](https://redberry.international/laravel-development)**
+- **[Active Logic](https://activelogic.com)**
 
+## Contributing
 
-**Frontend:** `ReactJs, ViteJs, Tailwind CSS, HTML, CSS`  
-**Backend:** `PHP, Javascript`  
-**Database:** `Mysql`  
-**Server:** `Litespeed`
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## 🏁 Mulai Cepat
+## Code of Conduct
 
-### Prasyarat
-Pastikan Anda telah menginstal:
-- `npm versi 11.6.2 atau latest`
-- `React Js 19.2.6`
-- `PHP 8.2`
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-### Instalasi dan Menjalankan Lokal
+## Security Vulnerabilities
 
-```bash
-# Clone repositori ini
-https://github.com/dextryayers/web-mutu.git
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-# Masuk ke direktori proyek
-cd web-mutu
+## License
 
-# Install Depedensi Dengan npm
-npm install
-
-# Jalankan localhost web sebagai preview
-npm run dev 
-
-# Build Untuk Mengupload Ke server/database
-npm run build
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
